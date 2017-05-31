@@ -93,7 +93,7 @@ a:focus {
   display: flex;
   justify-content: center;
   margin-bottom: 60px;
-  opacity: .8;
+  opacity: .7;
 }
 .project-head{
   text-align: left;
@@ -101,12 +101,18 @@ a:focus {
   font-size: 24px;
 }
 .skills-head{
-  background: black;
   text-align: center;
-  border-bottom: 2px solid #66cc66;
+  border-bottom: 2px solid #2d862d;
   font-size: 20px;
   border-radius: 10px;
-  opacity: .8;
+}
+.skills{
+  background: black;
+  opacity: .7;
+  width: auto;
+  padding: 20px;
+  height: inherit;
+  border-radius: 20px;
 }
 
 
