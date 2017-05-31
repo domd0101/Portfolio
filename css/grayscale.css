@@ -86,7 +86,6 @@ a:focus {
   padding-top: 3px;
   background: black;
   color: white;
-  border-bottom: 2px solid #66cc66;
   border-radius: 10px;
 }
 .skillboxo{
@@ -102,13 +101,14 @@ a:focus {
 }
 .skills-head{
   text-align: center;
-  border-bottom: 2px solid #2d862d;
   font-size: 20px;
   border-radius: 10px;
+  color: white;
+  opacity: 1;
 }
 .skills{
   background: black;
-  opacity: .7;
+  opacity: .6;
   width: auto;
   height: auto;
   padding: 20px;
