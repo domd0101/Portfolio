@@ -6,7 +6,7 @@
 body {
   width: 100%;
   height: 100%;
-  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
   background-color: black;
 }
@@ -39,7 +39,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #336699;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -47,7 +47,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #538cc6;
 }
 .light {
   font-weight: 400;
@@ -58,9 +58,14 @@ a:focus {
   margin: 20px;
 }
 .portpics2{
-  width: 300px;
-  height: 170px;
+  width: 310px;
+  height: 180px;
   margin: 20px;
+  border-top: 4px solid #b3b3cc;
+  border-right: 2px solid #b3b3cc;
+  border-left: 2px solid #b3b3cc;
+  border-bottom: 6px solid #b3b3cc;
+  border-radius: 2px;
 }
 .box{
   display: flex;
@@ -81,13 +86,27 @@ a:focus {
   padding-top: 3px;
   background: black;
   color: white;
-  border: 1px solid white;
+  border-bottom: 2px solid #66cc66;
   border-radius: 10px;
 }
 .skillboxo{
   display: flex;
   justify-content: center;
   margin-bottom: 60px;
+  opacity: .8;
+}
+.project-head{
+  text-align: left;
+  border-bottom: 2px solid #538cc6;
+  font-size: 24px;
+}
+.skills-head{
+  background: black;
+  text-align: center;
+  border-bottom: 2px solid #66cc66;
+  font-size: 20px;
+  border-radius: 10px;
+  opacity: .8;
 }
 
 
@@ -163,7 +182,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/jay-ruzesky-91049.jpg) no-repeat bottom center scroll;
+  background: url(../img/jason-strull-238671.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -263,7 +282,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/patryk-gradys-128898.jpg) no-repeat center center scroll;
+  background: url(../img/sophie-higginbottom-133982.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -297,17 +316,17 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid white;
+  color: white;
   background-color: black;
   opacity: .8;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #336699;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #336699;
 }
 ul.banner-social-buttons {
   margin-top: 0;
